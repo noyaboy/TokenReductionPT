@@ -1,0 +1,27 @@
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.23.5
+pandas==1.5.3
+timm==0.9.12
+wandb=0.14.0
+einops=0.4.0
+torchprofile==0.0.4
+
+# pip install --no-dependencies --force-reinstall -v "timm==0.9.12"
+
+# optional
+# speed_test.py: 
+# nvidia-ml-py
+
+# flops for other models
+# thop
+# ptflops
+
+# visualization tools
+# tqdm
+# scipy
+# opencv-python==4.10.0.84
+# cv2
+# gradio 
+# matplotlib
+# torchcam

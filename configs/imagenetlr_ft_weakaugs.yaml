@@ -1,0 +1,4 @@
+defaults:
+    dataset: 'datasets/imagenetlr.yaml'
+    settings: 'settings/ft.yaml'
+    augs: 'augs/weakaugs.yaml'
