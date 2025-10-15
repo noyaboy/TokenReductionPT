@@ -1,0 +1,99 @@
+
+====================================================================================================
+Configuration: is=224 bs=1 BASELINE
+====================================================================================================
+
+Total unique kernels profiled: 3
+
+Average Metrics Across All Kernels:
+----------------------------------------------------------------------------------------------------
+  SM [%]                                         3.20 %
+  Memory [%]                                    28.85 %
+  Compute (SM) [%]                                N/A
+  L1/TEX Hit Rate                                1.85 %
+  L2 Hit Rate                                   52.27 %
+  Achieved Occupancy                            43.32 %
+
+Top 10 Most Frequently Executed Kernels:
+----------------------------------------------------------------------------------------------------
+   1. [  3x] void at::native::vectorized_elementwise_kernel<4, at::native::float16_copy_kerne
+
+====================================================================================================
+Configuration: is=224 bs=1 WITH TR
+====================================================================================================
+
+Total unique kernels profiled: 3
+
+Average Metrics Across All Kernels:
+----------------------------------------------------------------------------------------------------
+  SM [%]                                         3.24 %
+  Memory [%]                                    29.09 %
+  Compute (SM) [%]                                N/A
+  L1/TEX Hit Rate                                1.85 %
+  L2 Hit Rate                                   51.89 %
+  Achieved Occupancy                            43.44 %
+
+Top 10 Most Frequently Executed Kernels:
+----------------------------------------------------------------------------------------------------
+   1. [  3x] void at::native::vectorized_elementwise_kernel<4, at::native::float16_copy_kerne
+
+====================================================================================================
+Configuration: is=448 bs=8 WITH TR
+====================================================================================================
+
+Total unique kernels profiled: 3
+
+Average Metrics Across All Kernels:
+----------------------------------------------------------------------------------------------------
+  SM [%]                                         4.34 %
+  Memory [%]                                    39.00 %
+  Compute (SM) [%]                                N/A
+  L1/TEX Hit Rate                                1.85 %
+  L2 Hit Rate                                   50.67 %
+  Achieved Occupancy                            54.84 %
+
+Top 10 Most Frequently Executed Kernels:
+----------------------------------------------------------------------------------------------------
+   1. [  3x] void at::native::vectorized_elementwise_kernel<4, at::native::float16_copy_kerne
+
+====================================================================================================
+Configuration: is=448 bs=4 WITH TR (ANOMALY)
+====================================================================================================
+
+Total unique kernels profiled: 3
+
+Average Metrics Across All Kernels:
+----------------------------------------------------------------------------------------------------
+  SM [%]                                         4.40 %
+  Memory [%]                                    39.13 %
+  Compute (SM) [%]                                N/A
+  L1/TEX Hit Rate                                1.85 %
+  L2 Hit Rate                                   50.33 %
+  Achieved Occupancy                            54.90 %
+
+Top 10 Most Frequently Executed Kernels:
+----------------------------------------------------------------------------------------------------
+   1. [  3x] void at::native::vectorized_elementwise_kernel<4, at::native::float16_copy_kerne
+
+====================================================================================================
+Configuration: is=448 bs=1 WITH TR (BEST)
+====================================================================================================
+
+Total unique kernels profiled: 3
+
+Average Metrics Across All Kernels:
+----------------------------------------------------------------------------------------------------
+  SM [%]                                         4.28 %
+  Memory [%]                                    38.44 %
+  Compute (SM) [%]                                N/A
+  L1/TEX Hit Rate                                1.85 %
+  L2 Hit Rate                                   50.51 %
+  Achieved Occupancy                            55.19 %
+
+Top 10 Most Frequently Executed Kernels:
+----------------------------------------------------------------------------------------------------
+   1. [  3x] void at::native::vectorized_elementwise_kernel<4, at::native::float16_copy_kerne
+
+====================================================================================================
+ANALYSIS COMPLETE
+====================================================================================================
