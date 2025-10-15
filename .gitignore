@@ -88,3 +88,8 @@ profiling_results/nsys_traces/
 profiling_results/ncu_reports/
 !profiling_results/batch_size_sweep_results.csv
 !profiling_results/findings_report.md
+
+# Profiling scripts - intermediate/failed versions
+profiling_results/analyze_ncu_reports.py
+profiling_results/NCU_ANALYSIS.txt
+run_ncu_profiling.sh
