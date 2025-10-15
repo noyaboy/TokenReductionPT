@@ -84,3 +84,7 @@ temp_scripts/
 *.sqlite
 nsight_reports/
 profile_results/
+profiling_results/nsys_traces/
+profiling_results/ncu_reports/
+!profiling_results/batch_size_sweep_results.csv
+!profiling_results/findings_report.md
